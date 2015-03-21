@@ -1,0 +1,17 @@
+{
+  "name": "ip-mapper",
+  "version": "1.0.0",
+  "description": "IP Address mapper for multiple ip addresses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chase Adams",
+  "repository": "git@github.com:siwolo/ipaddressmapper.git",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.7.1",
+    "csvtojson": "^0.3.19",
+    "request": "^2.53.0"
+  }
+}
