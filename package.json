@@ -4,7 +4,6 @@
   "description": "IP Address mapper for multiple ip addresses",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Chase Adams",
   "repository": "git@github.com:siwolo/ipaddressmapper.git",
