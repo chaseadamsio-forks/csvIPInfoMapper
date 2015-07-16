@@ -19,8 +19,8 @@ It is now a command-line tool with the command `csv-IP`
 
 `csv-IP` will take a .csv file as one argument (you must be in the current working directory of this file) and an IP address fieldname as another argument.
 
--f, --file [fileName], '.CSV file to read from'
--k, --field [fieldName], 'ip address fieldname'
+`-f, --file [fileName], '.CSV file to read from'`
+`-k, --field [fieldName], 'ip address fieldname'`
 
 It will generate a new CSV file (relative to the current working directory named `/data/output/ipInfo.csv`) with the following columns:
 
