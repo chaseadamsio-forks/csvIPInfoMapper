@@ -1,6 +1,8 @@
+#!/usr/bin/env node
+
 var commander = require('commander');
-var pkgvrsn = require('./package.json').version;
-var Program = require('./lib/program');
+var pkgvrsn = require('../package.json').version;
+var Program = require('../lib/program');
 
 commander
   .version(pkgvrsn)

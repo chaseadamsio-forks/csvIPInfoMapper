@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "description": "IP Address mapper for multiple ip addresses",
   "main": "index.js",
-  "scripts": {
+  "bin": {
+    "csv-IP": "bin/index.js"
   },
+  "scripts": {},
   "author": "Chase Adams",
   "repository": "git@github.com:siwolo/ipaddressmapper.git",
   "license": "ISC",
   "dependencies": {
     "commander": "^2.7.1",
+    "csv": "^0.4.5",
     "csvtojson": "^0.3.19",
+    "mkdirp": "^0.5.1",
     "request": "^2.53.0"
   }
 }
